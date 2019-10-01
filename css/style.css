@@ -290,6 +290,8 @@ footer ul li i {
   /* Header section */
   header.splash .row {
     padding: 2.5vw 1vw;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
   }
   header.splash a.logo {
     font-size: 20px;
