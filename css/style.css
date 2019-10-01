@@ -194,6 +194,12 @@ section.our-portfolio .box {
   padding-bottom: 30px;
   background: #fff;
   overflow: hidden;
+  transition: all 0.3s;
+}
+
+section.our-portfolio .box:hover {
+  box-shadow: 1px 10px 15px #363636;
+  transform: translateY(-10px);
 }
 
 section.our-portfolio .box img {

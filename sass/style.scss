@@ -200,6 +200,12 @@ section.our-portfolio {
     padding-bottom: 30px;
     background: $color-one;
     overflow: hidden;
+    transition: $transition;
+
+    &:hover {
+      box-shadow: 1px 10px 15px $color-four;
+      transform: translateY(-10px);
+    }
 
     img {
       width: 100%;
