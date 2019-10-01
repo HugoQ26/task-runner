@@ -15,7 +15,7 @@
 
 body {
   font-size: 16px;
-  font-family: "Lato", Sans-Serif;
+  font-family: "Source Sans Pro", Sans-Serif;
   color: #000;
   line-height: 1.5;
 }
@@ -29,6 +29,12 @@ body {
 
 section {
   padding: 140px 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", Serif;
 }
 
 h2.section-title {

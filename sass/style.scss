@@ -13,6 +13,9 @@ $transition: all 0.3s;
 
 $text-shadow: 2px 2px 4px $color-two;
 
+$primary-font: 'Playfair Display', Serif;
+$secondary-font: 'Source Sans Pro', Sans-Serif;
+
 /* Global */
 
 *,
@@ -39,6 +42,12 @@ body {
 
 section {
   padding: 140px 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: $primary-font;
 }
 
 h2.section-title {
